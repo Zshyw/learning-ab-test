@@ -10,12 +10,29 @@ Returns a probability of a given continuous outcome
 
 ### Confidence Intervals 
 
-$\hat{p}$ = x/n where x = unique clicks, n = unique users 
-$\hat{p}$ is essentially the proportion of successes
+<img src = "https://latex.codecogs.com/svg.latex?\hat{p}=\frac{x}{n}">
+
+where 
+
+<img src = "https://latex.codecogs.com/svg.latex?{x}"> = unique clicks
+
+<img src = "https://latex.codecogs.com/svg.latex?{n}"> = unique users 
+
+<img src = "https://latex.codecogs.com/svg.latex?\hat{p}"> is essentially the proportion of successes
+
 Assuming normal distribution 
 check n * $\hat{p}$ > 5
 and n*(1-$\hat{p}$) > 5
 
 Margin of error 
 m = z* standard error 
-m = z * $\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$
+
+Standard Error
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;m=z*\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}" />
+
+
+\alpha
+\frac{n!}{k!(n-k)!}
+${n}$
+
+
