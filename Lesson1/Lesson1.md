@@ -38,7 +38,7 @@ Summary: A function that gives you probabilities for discrete random variables.
 ### PPF = percent point function
 Inverse of CDF (Cumulative Distribution Function)
 
-Example of uses: 
+*Example of uses*: 
 - to find the median of a distribution 
     - e.g. binom.ppf(0.5, n, p) given n, p parameters
 
